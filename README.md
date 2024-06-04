@@ -8,7 +8,7 @@ You can get reviews about any movie. The data is obtained from the server of the
 
 - Project started : Jan 12, 2023
 - Project finish : Feb 15, 2023
-- Demo : [Go Live]([https://movielibrarymanager.netlify.app/])
+- Demo : [Go Live](https://movielibrarymanager.netlify.app/)
 
 ### How to run locally?
 
