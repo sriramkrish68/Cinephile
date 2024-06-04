@@ -1,0 +1,130 @@
+.movie-item-detail {
+    min-height: 75vh;
+    margin-top: 40px;
+    padding: 15px calc(50% - 500px);
+    display: flex;
+}
+
+.movie-item-detail img {
+    height: 410px;
+    width: 300px;
+}
+
+.movie-item-detail-vs {
+    margin-left: 20px;
+}
+
+.movie-item-detail-vs h2 {
+    margin: 15px 0;
+    font-weight: 900;
+    font-size: 34px;
+    text-transform: uppercase;
+    max-width: 600px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #0a0060;
+}
+
+.movie-item-detail-vs ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie-item-detail-vs ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.movie-item-detail-vs ul li span {
+    padding-left: 7px;
+}
+
+.movie-text {
+    margin: 32px 0;
+    color: #000000;
+}
+
+.movie-detail-footer {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.movie-detail-footer .hd {
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.movie-detail-btns button {
+    width: 200px;
+    height: 50px;
+    border: 0;
+    border-radius: 0;
+    margin-right: 40px;
+    margin-top: 40px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.bg-red {
+    background: #ff0000;
+}
+
+.bg-nored {
+    background: #706d6d;
+}
+
+.bg-3a70cf {
+    background: #3a70cf;
+}
+
+@media screen and (max-width: 970px) {
+    .movie-item-detail {
+        padding: 15px 20px 60px;
+    }
+
+    .movie-item-detail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-item-detail img {
+        width: 300px;
+    }
+
+    .movie-item-detail-vs {
+        margin-left: 0;
+    }
+
+    .movie-item-detail-vs ul {
+        flex-wrap: wrap;
+    }
+
+    .movie-item-detail-vs ul li {
+        margin-bottom: 10px;
+    }
+
+
+    
+}
+
+
+@media screen and (max-width: 540px) {
+    .movie-item-detail-vs h2 {
+        -webkit-line-clamp: 3;
+        font-size: 19px;
+    }
+    .movie-detail-btns button {
+        width: 100%;
+        margin: 0;
+    }
+
+    .movie-detail-btns>button{
+       margin: 20px 0 10px;
+    }
+}

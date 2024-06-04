@@ -1,0 +1,138 @@
+.header {
+    position: sticky;
+    top: 0;
+    padding: 15px calc(50% - 500px);
+    background-color: #7163d8;
+    font-size: 20px;
+    color: #fff;
+    z-index: 100;
+}
+
+.header,
+ul.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header__title {
+    cursor: pointer;
+    font-family: 'Luckiest Guy', cursive;
+    color: #FFEEDB;
+    font-size: 35px;
+    transition: all .3s ease-out;
+    position: relative;
+}
+
+.proggresBar {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 45%;
+    height: 4px;
+    background-color: #13be13;
+    transition: .3s ease-in;
+
+}
+
+.header__title:hover .proggresBar {
+    width: 100%;
+    transition: .4s ease-in;
+}
+
+ul.list li {
+    cursor: pointer;
+    margin-right: 50px;
+    font-weight: bold;
+    transition: ease .3s;
+}
+
+ul.list li:hover {
+    color: #13be13;
+    transition: ease .3s;
+}
+
+ul.list li:last-child {
+    margin-right: 0px;
+}
+
+.nav-search {
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background-color: #0b1a2bfe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease-in;
+}
+
+
+.fav-list {
+    width: 340px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -340px;
+    background-color: #060f19;
+    transition: all .3s ease-in;
+}
+
+.close-fav-list {
+    position: relative;
+    top: 20px;
+    right: -293px;
+    transition: all ease-in .3s;
+    transform: rotate(0);
+    display: grid;
+    place-items: center;
+}
+.close-fav-list:hover {
+    transition: all .4s ease-in;
+    transform: rotate(180deg);
+}
+
+
+.fav-list-icon {
+    position: relative;
+}
+
+.fav-icon {
+    font-size: 25px;
+}
+
+.fav-length {
+    content: " ";
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:1120px) {
+    .header {
+        padding: 15px 20px;
+    }
+}
+
+
+@media screen and (max-width:490px) {
+    .header__title {
+        font-size: 25px;
+    }
+
+    ul.list li {
+        font-size: 17px;
+        margin-right: 25px;
+    }
+}

@@ -1,0 +1,48 @@
+.main-page__content {
+    min-height: 75vh;
+    padding: 42px calc(50% - 500px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-page__main-section {
+    box-sizing: border-box;
+}
+
+.main-page__search-box {
+    margin-bottom: 35px;
+}
+
+.main-page__favorites {
+    padding-right: 15px;
+    width: 35%;
+}
+
+
+@media screen and (max-width:700px) {
+
+    .main-page__content {
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    .main-page__favorites,
+    .main-page__main-section {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 90%;
+    }
+
+    .search-box__form-label,
+    .search-box__form-input {
+        width: 100% !important;
+    }
+
+    .movie-item__title {
+        font-size: 16px !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
