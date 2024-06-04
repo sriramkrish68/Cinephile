@@ -1,13 +1,12 @@
-# Movie organizer
+# Cinephile
 
-This is my movie organizer project that I developed using React and React-redux technologies.
-You can add your favorite movies to your list and share them with your friends.
-You can get reviews about any movie. The data is obtained from the server of the [OMDBAPI](https://www.omdbapi.com/) website.
+A movie library web application with personalized movie management features. Users can access the home screen to search for movies using the [OMDBAPI](https://www.omdbapi.com/) and view detailed information about each movie. The application allows users to create and manage multiple movie lists, similar to YouTube playlists, with the option to set lists as public or private. The home page displays the user's different movie lists, and the search and list pages have a user-friendly and visually appealing layout inspired by popular websites. Comprehensive documentation is included, and the project is hosted online, with working links to both the live application and the source code repository provided. This project offers an engaging user experience for movie enthusiasts, enabling them to easily curate and share their favorite movie collections.
+
 
 ### Information about the project :
 
-- Project started : Jan 12, 2023
-- Project finish : Feb 15, 2023
+- Technologies Used: ReactJS, HTML5, CSS3 , JavaScript(React JS ver--18.2.0)
+- Deployment Link below:
 - Demo : [Go Live](https://movielibrarymanager.netlify.app/)
 
 ### How to run locally?
@@ -16,47 +15,3 @@ You can get reviews about any movie. The data is obtained from the server of the
 npm install
 npm start
 ```
-
-### Technologies used in the project :
-
-- Front-end technologies :
-
-  > HTML5
-
-  > CSS3
-
-  > JavaScript(React JS ver--18.2.0)
-
-- Used packages :
-
-  > Redux
-
-  > React-redux
-
-  > React-router-dom
-
-- Used design libraries :
-
-  > Material UI
-
-  > Chakra UI
-
-- Used Hooks :
-
-  > useState
-
-  > useEffect
-
-  > useDispatch
-
-  > useSelector
-
-  > useNavigate
-
-  > useParams
-
-  > useRef
-
-  > useLocation
-
-Web Storage API - localStorage
