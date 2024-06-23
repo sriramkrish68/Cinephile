@@ -10,8 +10,6 @@ A movie library web application with personalized movie management features. Use
 4. [Usage](#usage)
 5. [Deployment](#deployment)
 6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
 
 ## Features
 
